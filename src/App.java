@@ -61,6 +61,34 @@ public class App {
         // System.out.print("Digite seu sobrenome: ");
         // String sobrenome = entrada.nextLine();
         // System.out.print("Ola " + nome + " " + sobrenome);
+
+        // Laços de repetição
+        //for
+        // for (int cont = 0; cont < 10; ++cont) {
+        //     System.out.printf("Contado: %d%n", cont + 1);
+        // }
+        
+        // //foreach
+        // int[] numbers = {1, 2, 3, 4, 5};
+
+        // for (int num : numbers) {
+        //     System.out.println(num);
+        // }
+
+        // //while
+        // int cont1 = 0;
+        // while (cont1 < 5) {
+        //     System.out.printf("Cont1: %d%n", cont1);       
+        //     ++cont1;
+        // }
+        
+        // //do while
+        // int cont2 = 0;
+        // do {
+        //     ++cont2;
+        //     System.out.println("Cont2: " + cont2);
+        // } while (cont2 < 10);
+
         
     }
 }
