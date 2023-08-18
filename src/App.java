@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -68,13 +69,6 @@ public class App {
         //     System.out.printf("Contado: %d%n", cont + 1);
         // }
         
-        // //foreach
-        // int[] numbers = {1, 2, 3, 4, 5};
-
-        // for (int num : numbers) {
-        //     System.out.println(num);
-        // }
-
         // //while
         // int cont1 = 0;
         // while (cont1 < 5) {
@@ -89,6 +83,58 @@ public class App {
         //     System.out.println("Cont2: " + cont2);
         // } while (cont2 < 10);
 
-        
+        //ARRAY
+
+        // int[] num1 = new int[5];
+        // num1[0] = 1;
+
+        // System.out.println("Array: " + num1[0]);
+
+        // int[] numbers = {1, 2, 3, 4, 5};
+
+        // for (int num : numbers) {
+        //     System.out.println("Array: "+ num);
+        // }
+
+        // for (int i = 0; i < numbers.length; ++i) {
+        //     System.out.println("array: " + numberas[i]);
+        // }
+
+        // Scanner entrada = new Scanner(System.in);
+        // char[] gabarito = {'a', 'a', 'b', 'c', 'c'};
+        // char resposta;
+        // int acertos = 0;
+
+        // for (int i = 0; i < gabarito.length; ++i) {
+        //     System.out.printf("Digite sua resposta %d: ", i+1);
+        //     resposta = entrada.nextLine().charAt(0);
+        //     if(resposta == gabarito[i]) {
+        //         acertos++;
+        //     }
+        // }
+        // System.out.println("NOTA: " + (acertos*2));
+
+        //METODOS ARRAYS
+
+        int[] num = {9, 8, 7, 3, 2, 1, 4, 6, 5, 0};
+        //int[] num1 = new int[10];
+
+
+        //Arrays.sort(num); ordenação
+        //Arrays.fill(num, 99); preenchimento
+        //System.arraycopy(num, 0, num1, 0, 10); //Copia um array em outro
+        //boolean equal = Arrays.equals(num, num1);
+
+        // System.out.printf("Os Arrays %s iguais = ", (equal ? "são" : "não são"));
+
+        // for (int i : num) {
+        //     System.out.printf("%d ", i);
+        // }
+
+        //Arrays.sort(num); ordenação
+        //int achou = Arrays.binarySearch(num, 5); // busca um elemtno no array. O array tem que está ordenado
+        //System.out.println("ACHOU" + achou);
+
+
     }
 }
