@@ -116,7 +116,7 @@ public class App {
 
         //METODOS ARRAYS
 
-        int[] num = {9, 8, 7, 3, 2, 1, 4, 6, 5, 0};
+        //int[] num = {9, 8, 7, 3, 2, 1, 4, 6, 5, 0};
         //int[] num1 = new int[10];
 
 
@@ -134,6 +134,25 @@ public class App {
         //Arrays.sort(num); ordenação
         //int achou = Arrays.binarySearch(num, 5); // busca um elemtno no array. O array tem que está ordenado
         //System.out.println("ACHOU" + achou);
+
+        //MATRIZES
+
+        // final int linhas = 3;
+        // final int colunas = 3;
+        // int [][] matriz = new int [linhas][colunas];
+
+        // for(int l = 0; l < linhas; ++l) {
+        //     for(int c = 0; c < colunas; ++c) {
+        //         matriz[l][c] = l + c;
+        //     }
+        // }
+
+        // for(int l = 0; l < linhas; ++l) {
+        //     for(int c = 0; c < colunas; ++c) {
+        //         System.out.printf("[%d] ", matriz[l][c]);
+        //     }
+        //     System.out.println();
+        // }
 
 
     }
